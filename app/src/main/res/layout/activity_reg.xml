@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".RegActivity">
+
+    <TextView
+        android:id="@+id/reg_text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="185dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/reg_label_text"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/reg_id_plain"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#BBBBBB"
+        android:hint="@string/reg_login_text" />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/reg_button_text"
+        android:backgroundTint="#2196F3" />
+
+    <TextView
+        android:id="@+id/reg_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/reg_back_text"
+        android:textAlignment="center"
+        android:textColor="#BBBBBB"
+        android:textSize="20sp" />
+</LinearLayout>

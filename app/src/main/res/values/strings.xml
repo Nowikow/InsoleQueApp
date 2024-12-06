@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InsoleQue</string>
+
+    <string name="main_screen_text">Создаём или правим?</string>
+    <string name="main_create_text">Создать</string>
+    <string name="main_edit_text">Исправить</string>
+
+    <string name="reg_label_text">Авторизация</string>
+    <string name="reg_login_text">Введите ID</string>
+    <string name="reg_button_text">К пациенту</string>
+    <string name="reg_back_text">Назад</string>
+
+    <string name="plist_label_text">Вася Пупкин</string>
+
+    <string name="que_label_text">Опрос пациента</string>
+    <string name="que_button_text">Сохранить</string>
+
+    <string name="result_label_text">Данные сохранены</string>
+    <string name="result_link_text">Это ссылка</string>
+    <string name="result_button_text">Далее</string>
+
+</resources>

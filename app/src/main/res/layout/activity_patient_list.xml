@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".PatientListActivity">
+
+    <TextView
+        android:id="@+id/reg_text_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/plist_label_text"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/patient_date_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        android:contentDescription="dynamic">
+
+        <LinearLayout
+            android:id="@+id/patient_node"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#2196F3"
+        android:text="@string/reg_back_text" />
+
+</LinearLayout>

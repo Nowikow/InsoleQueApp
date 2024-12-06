@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_text_label"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/main_screen_text"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/main_create_button"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/main_create_text"
+        android:layout_gravity="center"
+        android:backgroundTint="#2196F3"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/main_edit_button"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/main_edit_text"
+        android:backgroundTint="#2196F3"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="196dp" />
+</LinearLayout>
